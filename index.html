@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+    <html lang="pt-br">
+        <head>
+            <meta charset="UTF-8">
+            <meta http-equiv="X-UA-Compatible" content="IE=edge">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <script src="https://kit.fontawesome.com/1f6307cab7.js" crossorigin="anonymous"></script>
+            <link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.min.css">
+            <link rel="stylesheet" type="text/css" href="styles/css/style.css">
+            <link rel="icon" href="styles/images/icon-sf.png">
+            <script src="bootstrap/js/bootstrap.bundle.min.js"></script>
+            <title>Minha página teste</title>
+        </head>
+        <body>
+
+              <nav class="navbar sticky-top navbar-expand-lg">
+                <div class="container ">
+                  <a class="navbar-brand" href="#">
+                    <img src="styles/images/logo-sf.png" alt="Logo sem fundo" width="80px" height="auto">
+                  </a>
+                  <div class="collapse navbar-collapse">
+                    <ul class="navbar-nav">
+                      <li class="nav-item">
+                        <a class="nav-link"  href="#quemsomos">Quem somos</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#parceiros">Parceiros</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#faleconosco">Fale Conosco</a>
+                      </li>
+                   </ul>
+                  </div>
+                </div>
+              </nav>
+
+              <section id="quemsomos">
+                <div class="container">
+                  <div class="row">
+                    <div class="col-md-8 padding-top">
+                      <h3>Somos uma equipe de desenvolvedores robusta composta por um homem só.</h3>
+                    </div>
+                    <div class="col-md-4">
+                      <img class="rounded-circle" src="styles/images/programacao.jpg" width="300px" height="300px" alt="Cara programando">
+                    </div>
+                  </div>
+                </div>
+              </section>
+
+              <section id="parceiros">
+                <div class="container-fluid">
+                  <div class="row">
+                    <div class="col-md-4">
+                      <img class="rounded-circle"  src="styles/images/cara.jpg " width="100%" height="auto">
+                      <h6 style="padding-top:2em;">Parceiro 1</h6>
+                    </div>
+                    <div class="col-md-4">
+                      <img class="rounded-circle" src="styles/images/cara.jpg" width="100%" height="auto">
+                      <h6 style="padding-top:2em;">Parceiro 2</h6>
+                    </div>
+                    <div class="col-md-4">
+                      <img class="rounded-circle" src="styles/images/cara.jpg" width="100%" height="auto">
+                      <h6 style="padding-top:2em;">Parceiro 3</h6>
+                    </div>
+                  </div>
+                </div>
+              </section>
+
+              <section id="faleconosco" style="padding-bottom:1.5em;background-color: #016fb9;">
+                <div class="container">
+                  <h2 style="padding-top: 0.5em; padding-bottom: 1em;">Fale Conosco</h2>
+                    <form class="faleconosco">                    
+                     <div class="mb-3" >
+                        <label for="Nome" class="form-label">Nome</label>
+                        <input style="width: 55vh ;" type="text" class="form-control" id="Nome" placeholder="Digite seu nome" required>
+                     </div>
+                     <div class="mb-3">
+                      <label for="email" class="form-label">E-mail</label>
+                      <input style="width: 55vh ;" type="email" class="form-control" id="email" placeholder="Digite seu email" required>
+                     </div>
+                      <div class="mb-3" >
+                       <label for="exampleFormControlTextarea1" class="form-label">Motivo do contato</label>
+                        <textarea style="width: 55vh ;" class="form-control" id="exampleFormControlTextarea1" rows="3" required></textarea>
+                      </div>
+                      <div class="col-12" >
+                        <button class="btn btn-primary" type="submit">Enviar</button>
+                      </div>
+                    </form>
+                </div>
+              </section>
+
+              <footer>
+                <h5>Todos os direitos reservados a Will Softwares</h5>
+              </footer>
+            
+        </body>
+</html>

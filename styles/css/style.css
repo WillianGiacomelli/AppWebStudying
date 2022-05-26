@@ -1,0 +1,37 @@
+.navbar{
+    background-color:  #fef5ef;
+}
+
+.navbar ul li a{
+    color:black;
+    margin-right: 50px;
+}
+
+#quemsomos{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background-color: #7d84b2;
+}
+
+#parceiros{
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+#parceiros h6{
+    text-align: center;
+}
+
+.faleconosco{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+}
+
+footer{
+    background-color: #f9f7f3;
+    padding: 2em 0 2em 0;
+    text-align: center;
+}
+
